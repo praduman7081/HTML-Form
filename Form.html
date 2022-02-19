@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms</title>
+</head>
+
+<body>
+    
+    <h2>This is HTML form tuterial</h2>
+    <form action="backend.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="Myname" Id="name" required> <br>
+        <label for="role">Role:</label>
+        <input type="text" name="Myrole" Id="role"><br>
+        <label for="Myemail">Email:</label>
+        <input type="text" name="Myemail" required> <br>
+        <label for="date">Date:</label>
+        <input type="date" name="date"><br>
+        <label for="time">Time</label>
+        <input type="time" name="time"><br>
+        <!-- checkbox button -->
+        
+            Are you eligible?: <input type="checkbox" name="Myeligibility" ><br>
+        <!-- radio button -->
+        <br>
+        <div>
+            Gender: <br>
+            Male <input type="radio" name=" Mygender">
+            Female <input type="radio" name=" Mygender">
+            Other <input type="radio" name=" Mygender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br> <textarea name="Yourself" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="Mycar" id="car">
+                <option value="ind">indigo</option>
+                <!-- selected using for by default -->
+                <option value="swi" selected>swift</option>
+                <option value="fara">farari</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="reset now">
+        </div>
+
+    </form>
+    </div>
+</body>
+
+</html>
